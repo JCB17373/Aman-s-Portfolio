@@ -63,7 +63,7 @@ class ProfileViewController: UIViewController {
 }
 extension ProfileViewController : UITableViewDelegate, UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 5
+        return 6
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -145,6 +145,8 @@ extension ProfileViewController : UITableViewDelegate, UITableViewDataSource{
         case 4:
             let cell = tableView.dequeueReusableCell(withIdentifier: "SkillsTableViewCell", for: indexPath) as! SkillsTableViewCell
             if let portfolio = self.portfolio{
+                cell.skills = portfolio.skills
+                cell.skillCollectionViewHeight.constant = CGFloat((portfolio.skills.count/2) * 60)
             }
             cell.selectionStyle = .none
             return cell
@@ -158,6 +160,11 @@ extension ProfileViewController : UITableViewDelegate, UITableViewDataSource{
             return expTableViewHeight + 65
         }else if indexPath.section == 1{
             return aboutCellHeight
+        }else if indexPath.section == 4{
+            if let portfolio = self.portfolio{
+                return CGFloat((portfolio.skills.count/2) * 60)
+            }
+            
         }
         return UITableView.automaticDimension
     }

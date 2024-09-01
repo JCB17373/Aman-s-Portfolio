@@ -23,6 +23,7 @@ struct ProfileModel : Codable{
     var openToWork: Bool
     var experience: [Experience]
     var job_preferences: [JobPreference]
+    var skills: [Skills]
    
     
 }
@@ -40,5 +41,10 @@ struct Experience: Codable{
 struct JobPreference: Codable{
     var name: String
     var data: [String]
+    
+}
+struct Skills: Codable{
+    var skill_name: String
+    var skill_duration: String
     
 }

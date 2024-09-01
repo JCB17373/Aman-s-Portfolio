@@ -26,17 +26,6 @@ class ExperienceTableViewCell: UITableViewCell, UITableViewDelegate, UITableView
         didSet{
             expTableView.dataSource = self
             expTableView.delegate = self
-//            for val in 0..<experience.count{
-//                let des = experience[val].description.html2String
-//                var cellHeight = Helpers.sharedInstance.heightForText(string: des, width: UIScreen.main.bounds.width - 60, font: UIFont.systemFont(ofSize: 15))
-//                cellHeight += 100.00
-//                heightForDescription = heightForDescription + cellHeight
-//            }
-//            self.expTableViewHeight.constant = heightForDescription
-//            experienceHeightClosure?(heightForDescription)
-            
-            expTableView.reloadData()
-            
         }
     }
 

@@ -53,5 +53,70 @@
             
         }
         
+    ],
+    "skills": [
+        {
+            "skill_name": "Swift",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "SwiftUI",
+            "skill_duration": "1"
+        },
+        {
+            "skill_name": "Cocoa Touch",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "UIKit",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Core Animation",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Restful APIs",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "App Store",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "MVVM",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Git/GitHub",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Multithreading",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Firebase",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Payment methods integration",
+            "skill_duration": "5"
+        },
+        {
+            "skill_name": "Blog Writing",
+            "skill_duration": "5"
+        },
+        
+        
+        {
+            "skill_name": "Team management",
+            "skill_duration": "3"
+        },
+        
+        {
+            "skill_name": "Social Logins",
+            "skill_duration": "5"
+        }
     ]
 }
