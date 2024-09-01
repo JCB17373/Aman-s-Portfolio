@@ -1,0 +1,57 @@
+{
+    "name": "Aman Bhatt",
+    "current_designation": "Senior Software Engineer",
+    "current_company": "Webkul Software Pvt. Ltd.",
+    "current_address": "Noida, Uttar Pradesh",
+    "highest_education": "Bachelor of Technology (B.Tech)",
+    "highest_education_college": "Bipin Tripathi Kumaon Institute of Technology",
+    "highest_education_stream": "Computer Science & Engineering",
+    "highest_education_from": "2016",
+    "highest_education_to": "2019",
+    "openToWork": true,
+    "contact_number" : "7060294129",
+    "contact_email" : "superb.aman.bhatt@gmail.com",
+    "about": "Experienced iOS Developer with 4.10 years of experience, I have honed my skills in creating high-quality, user-friendly mobile applications. My expertise spans the entire app development lifecycle, from initial concept to deployment on the App Store. I am currently working as a Senior Software Engineer at Webkul, where I lead projects focused on eCommerce, Marketplace, and custom mobile solutions. I specialize in Swift, Xcode, Cocoa Touch, and various iOS frameworks, ensuring robust and scalable app architectures.",
+    "job_preferences": [
+        {
+            "name" : "Job Titles",
+            "data" : ["Mobile Application Developer","iOS Developer", "Mobile App Development", "iOS App Development"]
+       },
+       {
+           "name" : "Locations",
+           "data" : ["Noida","Delhi", "Gurugram"]
+       },
+       {
+           "name" : "Employment Type",
+           "data" : ["Full-time"]
+          
+       }
+    ],
+    "experience": [
+        {
+            "company_name": "Webkul Software Pvt. Ltd.",
+            "job_type": "Full-time",
+            "company_address": "Noida, Uttar Pradesh, India",
+            "total_years": "4 years",
+            "total_months": "3 months",
+            "joined_on": "Aug 2020",
+            "releave_on": "Nov 2024",
+            "designation": "Sr. Software Engineer",
+            "description": "<ul ><li>Worked and developed the mobile applications based on the Magento 2, OpenCart, Prestashop and Odoo eCommerce framework which are available on the App Store.</li><li>Rich experience in creating the eCommerce application for the Marketplace and Hyperlocal modules and Delivery Boy applications.</li><li>Implemented modules such as Wallet System, Auction System, Biometric login etc.</li><li>Blog writing on iOS and Flutter technology.</li><li>Managed Micro teams and mentor them.</li><li>Worked on client applications and delivered the projects.</li><li>Lead the development of e-commerce applications with a team of 3+ members.</li><li>Integrated payment gateways like ApplePay, Stripe, Paypal, Razorpay, etc. ensuring secure and efficient handling of transactions within the app.</li></ul>",
+            
+        },
+        {
+            "company_name": "MADept Solutions Pvt. Ltd.",
+            "job_type": "Full-time",
+            "company_address": "Ghaziabad, Uttar Pradesh, India",
+            "total_years": "0 years",
+            "total_months": "7 months",
+            "joined_on": "Aug 2019",
+            "releave_on": "Feb 2020",
+            "designation": "Junior iOS Developer",
+            "description": "<p>During my tenure as an iOS Developer, I have gained extensive experience working on a variety of iOS application platforms, encompassing both offline and online environments. In offline development, <strong>I focused on building applications that function seamlessly without continuous internet connectivity, utilizing local data storage, caching mechanisms, and background synchronization processes.</strong> This ensured that users could access essential features and data even in low or no network conditions, enhancing the app's reliability and user experience.</p>",
+            
+        }
+        
+    ]
+}
